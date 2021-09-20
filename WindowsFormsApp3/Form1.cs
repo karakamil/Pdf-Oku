@@ -28,7 +28,7 @@ namespace WindowsFormsApp3
     public class Form1 : Form
     {
        // public string Baglanti { get; set; } = "Data Source=F:\Projeler\Pdf Oku\PdfOkuDb.db;Version=3;";
-       //referanslar klasına 
+       //referanslar klası
         private static int _numberOfCharsToKeep = 15;
         public static List<IptalKayitlar> SilinecekIptalKayitlar = new List<IptalKayitlar>();
         private RichTextBox rbMetin = new RichTextBox();
